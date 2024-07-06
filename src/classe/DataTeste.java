@@ -13,9 +13,11 @@ public class DataTeste {
 		d2.mes = 12;
 		d2.ano = 2025;
 		
-		System.out.printf("%02d/%02d/%04d\n", d1.dia, d1.mes, d1.ano);
+		String obterDataFormatada1 = d1.obterDataFormatada();
 		
-		System.out.printf("%02d/%02d/%04d\n", d2.dia, d2.mes, d2.ano);
+		System.out.println(obterDataFormatada1);
+		
+		System.out.println(d2.obterDataFormatada());
 	}
 
 }
