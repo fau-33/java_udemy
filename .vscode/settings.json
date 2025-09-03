@@ -1,0 +1,17 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "icons",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "terminal.integrated.env.windows": {},
+  "workbench.startupEditor": "none",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.6+7",
+      "default": true
+    }
+  ],
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "out"
+}
