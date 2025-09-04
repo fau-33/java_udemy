@@ -12,6 +12,14 @@
       "default": true
     }
   ],
-  "java.project.sourcePaths": ["src"],
-  "java.project.outputPath": "out"
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.project.outputPath": "out",
+  "[java]": {
+    "editor.defaultFormatter": "georgewfraser.vscode-javac"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
